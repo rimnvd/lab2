@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    background: #acfff5;
+}
+
+TABLE {
+    margin-top: -10%;
+    font-family: "Courier New", monospace;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.header {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 30px;
+    height: 35px;
+    color: black;
+    width: 100%;
+    background: #ba6fc7;
+    text-align: center;
+    border: 2px rgba(0, 0, 0, 0.7) solid;
+    text-shadow: white 0 -2px 0;
+}
+
+.header > p {
+    display: inline;
+    margin-right: 100px;
+}
+
+#graph {
+    margin-left: 150px;
+    margin-top: 3%;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    border: thick double black;
+    padding: 4px;
+
+}
+
+#main-form {
+    margin-top: 3%;
+    float: left;
+    width: 30%;
+}
+
+select {
+    font-weight: bold;
+}
+
+option {
+    font-weight: bold;
+    text-align: center;
+}
+
+#x {
+    height: 35px;
+}
+
+#y-text {
+    border: 2px solid;
+    height: 50px;
+    text-align: center;
+
+
+}
+
+#parameter {
+    float: left;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.elements input:hover {
+    box-shadow: 0 0 5px 2px #ba6fc7;
+}
+
+#x select:hover {
+    box-shadow: 0 0 5px 2px #ba6fc7;
+}
+
+#r input[type="button"] {
+    width: 35px;
+    height: 35px;
+}
+
+input[type="button"].active {
+    background-color: #ba6fc7;
+}
+
+th {
+    border: 2px solid;
+}
+
+td {
+    text-align: center;
+    border: 2px solid;
+}
+
+input[type="button"] {
+    font-weight: bold;
+
+}
+
+.elements input {
+    font-weight: bold;
+}
+
+#results {
+    margin-top: 12%;
+}
